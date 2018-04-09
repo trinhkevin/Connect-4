@@ -57,7 +57,7 @@ int main() {
 
 		// Wait for User Input
 		if(gfx_event_waiting()) {
-			input = gfx_waiet();
+			input = gfx_wait();
 			if(input == 'S') { // Right
 				sliderPos++;
 				if(sliderPos > 8) {
