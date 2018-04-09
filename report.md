@@ -1,8 +1,9 @@
-// Final Project: Report
-//
-// Kevin Trinh
+## Final Project: Report
+##
+## Kevin Trinh
 
-User Perspective:
+#User Perspective:
+
 From the user perspective, you would launch up the program and you'd see a game board and a side 
 panel. On the side panel, there's a circle with the color of the current "turn" or current 
 player playing. To play this game, you need two players and they play against each other. There 
@@ -12,7 +13,9 @@ There's a white ring around the part of the board that you can insert a disc int
 would then play this until there is a four in a row, hence "Connect 4". Once someone wins, there 
 is a prompt that displays the winner and a footnote under the prompt that tells the user to 
 click 'n' to begin another game.
-Programmer Perspective:
+
+# Programmer Perspective:
+
 From the programmer perspective, I had several functions that I called from within a while loop 
 that would run forever. I drew the board first (which is the board rectangle in the background 
 that the playable area is in), then I drew the disc. It would draw black disc if it was "empty" 
@@ -31,7 +34,9 @@ position. Then if it was a success, the "turn" would change. Onto the other poss
 If the user press 'n', I would simply clear the array and thus, clear the board. If the user 
 pressed 'q', I would return 0. At the end of my while loop, I would sleep and then clear the 
 screen.
-Troubleshooting Steps:
+
+# Troubleshooting Steps:
+
 For the graphics, I would change the coordinate values until it look right on the screen. It was 
 a lot of guessing and checking or math if I was drawing within a loop. Most of my functions were 
 very straight forward and the biggest problems I had were just computing the numbers to draw 
