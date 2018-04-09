@@ -2,7 +2,7 @@
 ##
 ## Kevin Trinh
 
-#User Perspective:
+# User Perspective:
 
 From the user perspective, you would launch up the program and you'd see a game board and a side 
 panel. On the side panel, there's a circle with the color of the current "turn" or current 
