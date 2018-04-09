@@ -1,6 +1,4 @@
 ## Final Project: Report
-##
-## Kevin Trinh
 
 # User Perspective:
 
